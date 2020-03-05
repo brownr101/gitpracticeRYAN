@@ -10,7 +10,7 @@ def getNRandom(n):
 		x = randint(1,10)
 		randlist.append(x)
 	print(randlist)
-print(getNRandom(15))
+getNRandom(15)
 		
 
 def multiplyRandom(numbers):
