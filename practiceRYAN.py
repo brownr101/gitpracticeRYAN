@@ -1,9 +1,17 @@
 
-# Partner 1: Ryan dumb dumb Brown
-# Partner 2: Alden the best dude Cheeseball stupid haha haha 
+# Partner 1: Ryan Dumb Brown
+# Partner 2: Alden Cheeseball McVay
+############################################# 
 def getNRandom(n):
 	'''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
-    pass
+	from random import randint
+	randlist = []
+	for i in range (n):
+		x = randint(1,10)
+		randlist.append(x)
+	print(randlist)
+print(getNRandom(15))
+		
 
 def multiplyRandom(numbers):
 	'''takes in a list of n numbers and returns the product of the numbers'''
